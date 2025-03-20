@@ -20,7 +20,8 @@ st.write("Loading model...")
 model = tf.keras.models.load_model(model_path)
 
 # Define class labels
-class_labels = ["Dried", "Undried"]
+class_labels = ["Dried Apples", "Dried Bananas", "Dried Tomatoes", 
+                    "Undried Apples", "Undried Bananas", "Undried Tomatoes"]
 
 st.title("Solar Agro Dryer - Image Classification")
 st.write("Upload an image to classify whether it is dried or undried.")
